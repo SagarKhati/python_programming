@@ -1,3 +1,5 @@
+import sys
+
 x = input("Enter 1st number : ")
 y = input("Enter 2nd number : ")
 z = x + y
@@ -26,3 +28,9 @@ print(ch)
 
 result = eval(input("Enter an expression : "))
 print(result)
+
+#command line arguments
+x = sys.argv[1]
+y = sys.argv[2]
+z = x + y
+print(z)
