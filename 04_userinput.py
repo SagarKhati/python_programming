@@ -23,3 +23,6 @@ print(ch[0])
 
 ch = input('Enter a char : ')[0]
 print(ch)
+
+result = eval(input("Enter an expression : "))
+print(result)
